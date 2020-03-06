@@ -1,30 +1,28 @@
 # Cosmic variance calculator
 
-This is a quick cosmic variance calculator based on Ucci et al. (2020), MNRAS, ???, ???
+This is a quick and easy cosmic variance calculator based on Ucci et al. (2020), reference
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/licenses/Apache-2.0) [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/grazianoucci/game/issues)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/licenses/Apache-2.0) [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/grazianoucci/cosmic_variance/graphs/contributors)
 
-## Getting Started
+## Prerequisites
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-See deployment for notes on how to deploy the project on a live system.
+To run the cosmic variance calculator script you need the following python packages: numpy, gzip and pickle.
 
-### Prerequisites
+## How to
 
-To run the cosmic variance calculator scripts you need the numpy and pickle packages.
-If you do not have them installed on your system, download and install them via:
+We provide three simple functions that allow the user to compute the cosmic variance (expressed in percantage) for the UV Luminosity Function (UV LF), for the Stellar Mass Function (SMF), and for the Halo Mass Function (HMF).
 
-## Running the tests
+The user should pass to the function the following data:
+- redshift
+- redshift interval (i.e., z_max - z_min)
+- survey area (in square arcmins)
+- UV absolute magnitude / Halo mass (expressed as log10 solar masses) / Stellar mass (expressed as log10 solar masses)
+- model name:
+    'photoionization_heating' (recommended)
+    'early_heating'
+    'jeans_mass'
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+We provide also simple examples, to get a clear idea of how to use the functions described above.
 
 ## Authors
 
@@ -36,4 +34,4 @@ See also the list of [contributors](https://github.com/cosmic_variance/contribut
 
 If you use this code for your work, please cite it with
 
-* Citation 1
+* reference
