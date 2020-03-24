@@ -12,23 +12,21 @@ To run the cosmic variance calculator script you need the following python packa
 
 We provide three simple functions that allow the user to compute the cosmic variance (expressed in percantage) for the UV Luminosity Function (UV LF), for the Stellar Mass Function (SMF), and for the Halo Mass Function (HMF).
 
-The user should pass to the function the following data:
+The user should pass to the functions the following data:
 - redshift
 - redshift interval (i.e., z_max - z_min)
 - survey area (in square arcmins)
 - UV absolute magnitude / Halo mass (expressed as log10 solar masses) / Stellar mass (expressed as log10 solar masses)
-- model name:
-    'photoionization_heating' (recommended)
-    'early_heating'
-    'jeans_mass'
+- model name: 'photoionization_heating' (recommended) / 'early_heating' / 'jeans_mass'
 
-We provide also simple examples, to get a clear idea of how to use the functions described above.
+The functions provided give as output the cosmic variance expressed in percentage.
+We also provide simple examples, to get a clear idea of how to use the functions described above.
 
 ## Authors
 
-* **Graziano Ucci** - *Kapteyn Astronomical Institute, Groningen* - [PurpleBooth](https://github.com/grazianoucci)
+* **Graziano Ucci** - *Kapteyn Astronomical Institute, Groningen* - [github](https://github.com/grazianoucci)
 
-See also the list of [contributors](https://github.com/cosmic_variance/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/grazianoucci/cosmic_variance/contributors) who participated in this project.
 
 ## Citing
 
