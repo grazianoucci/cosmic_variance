@@ -1,5 +1,6 @@
 # Cosmic variance calculator
 This is a quick and easy PYTHON cosmic variance calculator based on [Ucci et al. (2020)](https://arxiv.org/).
+
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/licenses/Apache-2.0) [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/grazianoucci/cosmic_variance/graphs/contributors)
 
 ## Prerequisites
@@ -13,8 +14,10 @@ The user should pass to the functions the following data:
 - redshift interval z_max - z_min (allowed range: 0.05 - 1)
 - survey area [square arcmins] (allowed range: 1 - 1000)
 - UV absolute magnitude (allowed range: -23 - -11.5)
+
   or
   Halo mass [log10 (solar masses)] (allowed range: 8 - 13)
+  
   or
   Stellar mass [log10 (solar masses)] (allowed range: 5 - 12)
 - model name: (allowed values: 'photoionization' (recommended), 'early_heating', 'jeans_mass')
