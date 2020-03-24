@@ -17,7 +17,7 @@ def compute_cosmic_variance_uv(parameters, model_name, verbose=False):
     3rd column: survey area (in square arcmins)
     4th column: UV magnitude
     The model name could be one of the following:
-    'photoionization_heating' (recommended)
+    'photoionization' (recommended)
     'early_heating'
     'jeans_mass'
 
@@ -63,7 +63,7 @@ def compute_cosmic_variance_mh(parameters, model_name, verbose=False):
     3rd column: survey area (in square arcmins)
     4th column: UV magnitude
     The model name could be one of the following:
-    'photoionization_heating' (recommended)
+    'photoionization' (recommended)
     'early_heating'
     'jeans_mass'
 
@@ -109,7 +109,7 @@ def compute_cosmic_variance_ms(parameters, model_name, verbose=False):
     3rd column: survey area (in square arcmins)
     4th column: UV magnitude
     The model name could be one of the following:
-    'photoionization_heating' (recommended)
+    'photoionization' (recommended)
     'early_heating'
     'jeans_mass'
 
@@ -149,8 +149,8 @@ test_uv1 = np.array([[8.65, 0.125, 82.5, -16],
                      [8.65, 0.125, 120,  -20],
                      [8.00, 0.125, 82.5, -18]])
 test_uv2 = np.array( [8.12, 0.625, 58.5, -17])
-cv_uv1   = compute_cosmic_variance_uv(test_uv1, 'photoionization_heating')
-cv_uv2   = compute_cosmic_variance_uv(test_uv2, 'photoionization_heating', verbose=True)        
+cv_uv1   = compute_cosmic_variance_uv(test_uv1, 'photoionization')
+cv_uv2   = compute_cosmic_variance_uv(test_uv2, 'photoionization', verbose=True)        
 test_mh1 = np.array([[8.65, 0.125, 82.5, 10.0],
                      [8.01, 0.125, 42.5, 10.5],
                      [9.52, 0.150, 13.5, 11.2],
