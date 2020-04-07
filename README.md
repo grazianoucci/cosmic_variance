@@ -10,7 +10,7 @@ To run the cosmic variance calculator script you need the following PYTHON packa
 We provide three simple functions that allow the user to compute the cosmic variance during the Epoch of Reionization (EoR) for the UV Luminosity Function (UV LF), Stellar Mass Function (SMF), and Halo Mass Function (HMF).
 
 The user should pass to the functions the following data:
-- redshift (allowed range: 6 - 10)
+- redshift (allowed range: 6 - 12)
 - redshift interval z_max - z_min (allowed range: 0.05 - 1)
 - survey area [square arcmins] (allowed range: 1 - 1000)
 - UV absolute magnitude (allowed range: -23 - -11.5)
