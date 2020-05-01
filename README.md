@@ -1,5 +1,5 @@
 # Cosmic variance calculator
-This is a quick and easy PYTHON cosmic variance calculator based on [Ucci et al. (2020)](https://arxiv.org/).
+This is a quick and easy PYTHON cosmic variance calculator based on [Ucci et al. (2020)](https://ui.adsabs.harvard.edu/abs/2020arXiv200411096U/abstract).
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/licenses/Apache-2.0) [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/grazianoucci/cosmic_variance/graphs/contributors)
 
@@ -32,4 +32,4 @@ See also the list of [contributors](https://github.com/grazianoucci/cosmic_varia
 
 ## Citing
 If you use this code for your work, please cite it with
-* bibtex
+https://ui.adsabs.harvard.edu/abs/2020arXiv200411096U/
