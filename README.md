@@ -32,7 +32,8 @@ See also the list of [contributors](https://github.com/grazianoucci/cosmic_varia
 
 ## Citing
 If you use this code for your work, please cite it with
-* @ARTICLE{2020arXiv200411096U,
+```
+@ARTICLE{2020arXiv200411096U,
        author = {{Ucci}, Graziano and {Dayal}, Pratika and {Hutter}, Anne and {Yepes}, Gustavo and {Gottl{\"o}ber}, Stefan and {Legrand}, Laurent and {Pentericci}, Laura and {Castellano}, Marco and {Choudhury}, Tirthankar Roy},
         title = "{Astraeus II: Quantifying the impact of cosmic variance during the Epoch of Reionization}",
       journal = {arXiv e-prints},
@@ -47,3 +48,4 @@ archivePrefix = {arXiv},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv200411096U},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+```
